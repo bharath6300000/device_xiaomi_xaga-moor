@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_xaga.mk
+    $(LOCAL_DIR)/blaze_xaga.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_xaga-user \
-    xtended_xaga-userdebug \
-    xtended_xaga-eng
+    blaze_xaga-user \
+    blaze_xaga-userdebug \
+    blaze_xaga-eng
