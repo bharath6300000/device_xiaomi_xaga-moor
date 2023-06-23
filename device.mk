@@ -40,10 +40,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-goodix.kl
     
 # MIUI Camera
-PRODUCT_SYSTEM_PROPERTIES += \
-    ro.miui.notch=1 \
-    ro.product.mod_device=xaga_global \
-    camera.lab.options=true
+# PRODUCT_SYSTEM_PROPERTIES += \
+   # ro.miui.notch=1 \
+   # ro.product.mod_device=xaga_global \
+   # camera.lab.options=true
 
 # Overlays
 PRODUCT_PACKAGES += \
