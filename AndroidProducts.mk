@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_xaga.mk
+    $(LOCAL_DIR)/legion_xaga.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_xaga-user \
-    blaze_xaga-userdebug \
-    blaze_xaga-eng
+    legion_xaga-user \
+    legion_xaga-userdebug \
+    legion_xaga-eng
