@@ -8,14 +8,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit common Extended configurations
-$(call inherit-product, vendor/legion/config/common_full_phone.mk)
+# Inherit common cherish configurations
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Inherit from xaga device
 $(call inherit-product, device/xiaomi/xaga/device.mk)
 
 PRODUCT_DEVICE := xaga
-PRODUCT_NAME := legion_xaga
+PRODUCT_NAME := cherish_xaga
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note11T Pro
 PRODUCT_MANUFACTURER := Xiaomi
