@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/legion_xaga.mk
+    $(LOCAL_DIR)/cherish_xaga.mk
 
 COMMON_LUNCH_CHOICES := \
-    legion_xaga-user \
-    legion_xaga-userdebug \
-    legion_xaga-eng
+    cherish_xaga-user \
+    cherish_xaga-userdebug \
+    cherish_xaga-eng
