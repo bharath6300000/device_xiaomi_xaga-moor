@@ -63,8 +63,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.project.rc \
     meta_init.rc
-
-# Xiaomi Parts
-PRODUCT_PACKAGES += \
-    XiaomiParts \
-    gpu_optimizer.rc
